@@ -11,7 +11,7 @@ let g:mapleader=','
 "==================================================="
 " 通用配置                                          "
 "==================================================="
-
+:
 syntax enable
 syntax on
 set history=2000
@@ -30,6 +30,8 @@ set cindent
 set smartindent 
 
 set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set et
 set smarttab
 set lbr
@@ -72,6 +74,7 @@ map <silent><leader>tl : TlistToggle<CR>
 "cmd"
 map <silent><leader>q : q!<CR>
 map <silent><leader>w : wq<CR>
+map <c-]> g<c-]>
 
 "nerdtree"
 let NERDTreeQuitOnOpen=1
