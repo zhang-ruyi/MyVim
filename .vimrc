@@ -11,7 +11,6 @@ let g:mapleader=','
 "==================================================="
 " 通用配置                                          "
 "==================================================="
-:
 syntax enable
 syntax on
 set history=2000
@@ -81,6 +80,7 @@ let NERDTreeQuitOnOpen=1
 let NERDTreeShowFiles=1
 let NERDTreeShowHidden=1
 let NERDTreeWinSizeMax=50
+let NERDTreeHighlightCursorline=0
 "autocmd VimEnter * NERDTree
 map <silent><leader>nt : NERDTreeToggle<CR>
 
